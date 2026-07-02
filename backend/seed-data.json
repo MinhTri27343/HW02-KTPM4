@@ -1,0 +1,111 @@
+{
+  "categories": [
+    { "name": "Điện thoại" },
+    { "name": "Laptop" },
+    { "name": "Phụ kiện" }
+  ],
+  "users": [
+    {
+      "name": "Admin User",
+      "email": "admin@eshop.com",
+      "password": "Admin123!",
+      "role": "admin"
+    },
+    {
+      "name": "Test User",
+      "email": "test@eshop.com",
+      "password": "Test1234!",
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "name": "iPhone 15 Pro Max",
+      "price": 30000000,
+      "description": "Điện thoại cao cấp của Apple",
+      "imageUrl": "https://placehold.co/300x300/png?text=iPhone+15",
+      "category_id": 1
+    },
+    {
+      "name": "Samsung Galaxy S24 Ultra",
+      "price": 28000000,
+      "description": "Màn hình hiển thị xuất sắc, camera siêu zoom",
+      "imageUrl": "https://placehold.co/300x300/png?text=Samsung+S24",
+      "category_id": 1
+    },
+    {
+      "name": "MacBook Pro M3",
+      "price": 45000000,
+      "description": "Laptop chuyên nghiệp mạnh mẽ",
+      "imageUrl": "https://placehold.co/300x300/png?text=Macbook+Pro",
+      "category_id": 2
+    },
+    {
+      "name": "Tai nghe AirPods Pro 2",
+      "price": 6000000,
+      "description": "Chống ồn chủ động xuất sắc",
+      "imageUrl": "https://placehold.co/300x300/png?text=AirPods+Pro",
+      "category_id": 3
+    },
+    {
+      "name": "Bàn phím cơ Keychron Q1",
+      "price": 4000000,
+      "description": "Gõ cực sướng, thiết kế kim loại",
+      "imageUrl": "https://placehold.co/300x300/png?text=Keychron+Q1",
+      "category_id": 3
+    }
+  ],
+  "coupons": [
+    {
+      "code": "SAVE10",
+      "type": "percent",
+      "discount_value": 10,
+      "min_order_amount": 300000,
+      "expired_at": "2099-12-31",
+      "is_active": 1,
+      "max_uses_per_user": 1
+    },
+    {
+      "code": "BIGBUY",
+      "type": "fixed",
+      "discount_value": 50000,
+      "min_order_amount": 500000,
+      "expired_at": "2099-12-31",
+      "is_active": 1,
+      "max_uses_per_user": 1
+    },
+    {
+      "code": "VIP100",
+      "type": "fixed",
+      "discount_value": 100000,
+      "min_order_amount": 300000,
+      "expired_at": "2099-12-31",
+      "is_active": 1,
+      "max_uses_per_user": 2
+    },
+    {
+      "code": "EXPIRED",
+      "type": "percent",
+      "discount_value": 20,
+      "min_order_amount": 100000,
+      "expired_at": "2020-01-01",
+      "is_active": 1,
+      "max_uses_per_user": 1
+    }
+  ],
+  "orders": [
+    {
+      "user_id": 2,
+      "total_amount": 7600000,
+      "status": "pending",
+      "shipping_address": "123 Đường ABC, Quận 1, TP.HCM"
+    }
+  ],
+  "coupon_usage": [
+    {
+      "coupon_id": 1,
+      "user_id": 2,
+      "used_at": "2024-01-01T00:00:00Z"
+    }
+  ]
+}
