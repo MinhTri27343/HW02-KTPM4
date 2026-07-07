@@ -1,11 +1,11 @@
 Tôi cung cấp cho bạn:
 
-1. Một file skill về `Automated_Domain_Testing_Designer.md`.
+1. Một file skill về `boundary_testing_designer.md`.
 3. Dữ liệu đầu vào gồm Feature Specification, Navigation Flow, Business Rules, Input Constraints, Expected Output Statuses và System Context.
 
 Nhiệm vụ của bạn:
 
-- Đọc và hiểu toàn bộ skill `Automated_Domain_Testing_Designer.md`.
+- Đọc và hiểu toàn bộ skill `boundary_testing_designer.md`.
 - Phân tích các quy trình, phương pháp,te và tiêu chí trong skill.
 - Dựa trên skill và dữ liệu đầu vào, hãy tạo một **Domain Testing Report hoàn chỉnh** cho tính năng được mô tả.
 
@@ -58,5 +58,5 @@ Hãy viết tiếp  kết quả dưới dạng file Markdown:
 `Domain_testing_report.md`
 
 
-Bắt buộc tuân theo cấu trúc của skill `Automated_Domain_Testing_Designer` đã cung cấp.
+Bắt buộc tuân theo cấu trúc của skill `boundary_testing_designer` đã cung cấp.
 Bắt buộc tuân theo template `Domain_testing_report.md`
