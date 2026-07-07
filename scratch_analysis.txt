@@ -1,0 +1,204 @@
+
+================ INTERACTION 1 ================
+--- PROMPT (Lines 8-10) ---
+Your prompt
+Plaintext
+Dich tat ca file nay cho toi
+...
+--- OUTPUT (Lines 11-196) ---
+The AI output
+Plaintext
+Dưới đây là bản dịch toàn bộ nội dung tài liệu bài tập của bạn sang tiếng Việt, giữ nguyên cấu trúc và các thuật ngữ chuyên ngành để bạn dễ dàng theo dõi và thực hiện:
+
+...
+
+================ INTERACTION 2 ================
+--- PROMPT (Lines 197-228) ---
+Your prompt
+Plaintext
+(Đính kèm file theory_domain_testing.md)
+Tôi cung cấp cho bạn một file `.md` chứa một bài tập đầy đủ các bước thực hiện nội dung về Domain Testing.
+...
+--- OUTPUT (Lines 229-341) ---
+The AI output
+Plaintext
+# Agent Skill: Automated Domain Testing Designer
+
+...
+
+================ INTERACTION 3 ================
+--- PROMPT (Lines 342-354) ---
+## Your prompt
+
+```text
+(Đính kèm các hình ảnh giao diện UI của chức năng Quên Mật Khẩu)
+...
+--- OUTPUT (Lines 355-381) ---
+The AI output
+Plaintext
+Dựa trên mô tả tính năng (Feature Specification) và các hình ảnh UI thực tế của luồng **FR-03: Quên mật khẩu và đặt lại mật khẩu**, dưới đây là nội dung chi tiết cho mục **## 3. Dữ liệu đầu vào (Input Definition)** được chuẩn hóa cấu trúc để bạn đưa trực tiếp vào cấu hình Agent Skill của mình.
+
+...
+
+================ INTERACTION 4 ================
+--- PROMPT (Lines 382-394) ---
+Your prompt
+Plaintext
+| ID | code | total_amount | user_id | Kết quả mong đợi theo | Phân vùng được bao phủ (Covered EP) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+...
+--- OUTPUT (Lines 395-435) ---
+The AI output
+Plaintext
+Bảng ma trận dữ liệu kiểm thử (Test Data Matrix) cho tính năng Coupon/Mã giảm giá của bạn về mặt logic phối hợp và kỹ thuật **Kiểm thử miền (Domain Testing)** đã **rất tốt và chuẩn xác** rồi! Bạn đã áp dụng đúng nguyên tắc cốt lõi: 
+* **Happy Path (Case 13, 14):** Phối hợp các phân vùng hợp lệ. Ở đây bạn rất kỹ khi tách ra 2 case thành công tương ứng với 2 loại coupon khác nhau (giảm theo % và giảm theo số tiền cố định).
+...
+
+================ INTERACTION 5 ================
+--- PROMPT (Lines 436-438) ---
+Your prompt
+Plaintext
+OUTPUT: file .md
+...
+--- OUTPUT (Lines 439-460) ---
+The AI output
+Plaintext
+# Báo cáo Ma trận Kiểm thử Miền (Domain Testing Matrix Report)
+
+...
+
+================ INTERACTION 6 ================
+--- PROMPT (Lines 461-479) ---
+Your prompt
+Plaintext
+| ID | code | type | discount_value | expired_at | min_order_amount | max_uses_per_user | id (xóa) | Kết quả mong đợi theo Đặc tả | Phân vùng được bao phủ (Covered EP) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+...
+--- OUTPUT (Lines 480-509) ---
+The AI output
+Plaintext
+# Báo cáo Ma trận Kiểm thử Miền (Domain Testing Matrix - Phần Quản lý Coupon Admin)
+
+...
+
+================ INTERACTION 7 ================
+--- PROMPT (Lines 510-512) ---
+Your prompt
+Plaintext
+Boundary Value Analysis trong kiem thu phan mem la gi
+...
+--- OUTPUT (Lines 513-575) ---
+The AI output
+Plaintext
+**Boundary Value Analysis (BVA)** – hay **Phân tích giá trị biên** – là một kỹ thuật thiết kế kịch bản kiểm thử hộp đen (Black-box testing) cực kỳ phổ biến trong kiểm thử phần mềm. 
+
+...
+
+================ INTERACTION 8 ================
+--- PROMPT (Lines 576-589) ---
+Your prompt
+Plaintext
+". Domain Testing. With the support of AI tools, apply the domain testing
+technique to design a comprehensive set of test cases. You are
+...
+--- OUTPUT (Lines 590-607) ---
+The AI output
+Plaintext
+Tôi **hiểu rất rõ** bạn đang cần làm gì. Bạn đang làm **Bài tập cá nhân số 2 (HW02 – Domain Testing)** của môn Kiểm thử phần mềm tại HCMUS. 
+
+...
+
+================ INTERACTION 9 ================
+--- PROMPT (Lines 608-610) ---
+Your prompt
+Plaintext
+Oke
+...
+--- OUTPUT (Lines 611-617) ---
+The AI output
+Plaintext
+Tuyệt vời. Vậy chúng ta sẽ đi theo đúng lộ trình để xử lý dứt điểm cấu trúc báo cáo cho các tính năng bạn đã chọn. 
+
+...
+
+================ INTERACTION 10 ================
+--- PROMPT (Lines 618-620) ---
+Your prompt
+Plaintext
+Tính năng B đi
+...
+--- OUTPUT (Lines 621-716) ---
+The AI output
+Plaintext
+Chúng ta sẽ triển khai chi tiết báo cáo cho **Tính năng B — Quản lý và Áp dụng mã giảm giá (Phía User)**. Để đạt điểm tối đa theo đúng chuẩn đầu ra G9.2 và G9.3, báo cáo sẽ được chia làm 2 phần lớn: **Domain Testing** (Bao gồm từ việc chia miền đến ma trận dữ liệu bạn đã làm rất tốt ở trên) và **Boundary Value Analysis** (Đào sâu vào các giá trị biên mấu chốt).
+
+...
+
+================ INTERACTION 11 ================
+--- PROMPT (Lines 717-722) ---
+Your prompt
+Plaintext
+(Đính kèm file Automated_Domain_Testing_Designer.md và một đoạn mã Markdown văn bản BVA mẫu)
+Đây là template về Boundary Value Analysis mà tôi muốn dùng. Tôi muốn bạn thiết kế skill 
+...
+--- OUTPUT (Lines 723-838) ---
+The AI output
+Plaintext
+# Agent Skill: Automated Domain & Boundary Testing Designer
+
+...
+
+================ INTERACTION 12 ================
+--- PROMPT (Lines 839-857) ---
+## Your prompt
+
+```text
+"| ID | name | email | password | confirmPassword | Kết quả mong đợi | Phân vùng được bao phủ (Covered EP) |
+...
+--- OUTPUT (Lines 858-926) ---
+The AI output
+Plaintext
+Hiện tượng bảng bị tràn lề khi xuất từ Markdown sang PDF rất phổ biến. Lý do là vì bảng này có **quá nhiều cột** (7 cột) và nội dung chữ trong các ô `Kết quả mong đợi` khá dài, khiến trình xuất PDF không tự động ngắt dòng được và đẩy bảng ra khỏi phạm vi trang giấy (A4).
+
+...
+
+================ INTERACTION 13 ================
+--- PROMPT (Lines 927-930) ---
+## Your prompt
+
+```text
+Có thể giới hạn mỗi cột chiếm bao  nhiêu phần trăm ko
+...
+--- OUTPUT (Lines 931-1052) ---
+The AI output
+Plaintext
+Hoàn toàn **có thể giới hạn** tỷ lệ phần trăm (`%`) chiều rộng cho từng cột trong Markdown khi xuất sang PDF được bạn nhé. 
+
+...
+
+================ INTERACTION 14 ================
+--- PROMPT (Lines 1053-1107) ---
+## Your prompt
+
+```text
+Tạo một **AI Audit Report** cho phiên làm việc hiện tại theo đúng template dưới đây.
+...
+--- OUTPUT (Lines 1108-1126) ---
+The AI output
+Plaintext
+# AI Audit Report
+
+...
+
+================ INTERACTION 15 ================
+--- PROMPT (Lines 1127-1150) ---
+Your prompt
+Plaintext
+Tôi muốn bạn xem lại toàn bộ lịch sử chat của bạn ở đoạn hội thoại này, ghi tất  cả chúng vào một file .md duy nhất . Trình tự là từ cũ nhất đến mới nhất
+- OUTPUT: 
+...
+--- OUTPUT (Lines 1151-1153) ---
+The AI output
+Plaintext
+(Nội dung phản hồi hiện tại chính là toàn bộ văn bản báo cáo tổng hợp lịch sử phiên làm việc này)
+...

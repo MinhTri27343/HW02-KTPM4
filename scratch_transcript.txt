@@ -1,0 +1,204 @@
+
+================ INTERACTION 1 ================
+PROMPT:
+<USER_REQUEST>
+Tôi cung cấp cho bạn:
+
+1. Một file skill về `Automated_Domain_Testing_Designer.md`.
+2. Các hình ảnh giao diện UI liên quan đến tính năng cần kiểm thử.
+3. Dữ liệu đầu vào gồm Feature Specification, Navigation Flow, Business Rules, Input Constraints, Expected Output Statuses và Syst
+...
+OUTPUT:
+Tôi đã phân tích chi tiết đặc tả tính năng **FR-03: Forgot password and password reset (two steps)**, đối chiếu với mã nguồn Frontend (`ForgotPassword.jsx` dòng 26) và Backend (`server.js`), kết hợp với quan sát 4 hình ảnh UI bạn đã cung cấp.
+
+Tôi đã tạo thành công báo cáo kiểm thử miền hoàn chỉnh t
+...
+
+================ INTERACTION 2 ================
+PROMPT:
+<USER_REQUEST>
+Tôi cung cấp cho bạn:
+
+1. Một file skill về `Automated_Domain_Testing_Designer.md`.
+3. Dữ liệu đầu vào gồm Feature Specification, Navigation Flow, Business Rules, Input Constraints, Expected Output Statuses và System Context.
+
+Nhiệm vụ của bạn:
+
+- Đọc và hiểu toàn bộ skill `Aut
+...
+OUTPUT:
+Tôi đã phân tích chi tiết đặc tả tính năng **FR-09: Mã Giảm Giá (Coupon)** từ các ràng buộc logic của bạn và đối chiếu với mã nguồn backend tại `backend/server.js` (dòng 363-441). 
+
+Tôi đã bổ sung phần báo cáo kiểm thử miền hoàn chỉnh tiếp nối theo đúng cấu trúc của skill `Automated_Domain_Testing_D
+...
+
+================ INTERACTION 3 ================
+PROMPT:
+<USER_REQUEST>
+Bạn hãy đọc qua 2 skill sau: 
+@[d:\HCMUS\Nam_III_HK3\Software Testing\HW\HW02\testing-seminar-eshop-sut\skill\Add_new_report_domain_testing.md] @[d:\HCMUS\Nam_III_HK3\Software Testing\HW\HW02\testing-seminar-eshop-sut\skill\Automated_Domain_Testing_Designer.md] 
+Đọc file add_new_repor
+...
+OUTPUT:
+---
+
+## Tính năng: FR-17 - Quản lý Mã Giảm Giá (Coupon CRUD)
+
+### Giả định (Assumptions)
+* **Quyền hạn:** Chỉ tài khoản có vai trò `admin` và sở hữu JWT Token hợp lệ mới có quyền thực hiện các thao tác Thêm / Xem / Xóa coupon. Nếu không hợp lệ, hệ thống trả về mã lỗi `401 Unauthorized` hoặc `403 For
+...
+
+================ INTERACTION 4 ================
+PROMPT:
+<USER_REQUEST>
+Bạn hãy đọc qua 2 skill sau 
+@[d:\HCMUS\Nam_III_HK3\Software Testing\HW\HW02\testing-seminar-eshop-sut\skill\Add_new_report_domain_testing.md] @[d:\HCMUS\Nam_III_HK3\Software Testing\HW\HW02\testing-seminar-eshop-sut\skill\Automated_Domain_Testing_Designer.md] 
+Skill: Add_new_report_d
+...
+OUTPUT:
+---
+
+## Tính năng: FR-01 - Đăng ký tài khoản
+
+### Step 1: Xác định Input & Output
+
+* **Input:**
+  * `name` (Chuỗi - String, bắt buộc)
+  * `email` (Chuỗi - String, bắt buộc, duy nhất)
+  * `password` (Chuỗi - String, bắt buộc)
+  * `confirmPassword` (Chuỗi - String, bắt buộc)
+
+* **Output:**
+  * **Thành
+...
+
+================ INTERACTION 5 ================
+PROMPT:
+<USER_REQUEST>
+Tôi cung cấp cho bạn:
+
+1. Một file skill về `boundary_testing_designer.md`.
+
+3. Dữ liệu đầu vào gồm mô tả tính năng của feature đó
+
+Nhiệm vụ của bạn:
+
+- Đọc và hi templaểu toàn bộ skill `boundary_testing_designer.md`.
+- Phân tích các quy trình, phương pháp,te và tiêu chí tron
+...
+OUTPUT:
+# BÁO CÁO KIỂM THỬ GIÁ TRỊ BIÊN (BOUNDARY TESTING REPORT)
+
+## Tính năng: FR-03 - Quên mật khẩu và Đặt lại mật khẩu (Forgot password and password reset - two steps)
+## II. Phương pháp Phân tích giá trị biên (Boundary Value Analysis - BVA)
+
+### Step 1: Xác định các biến có giá trị biên
+Trong tính năng
+...
+
+================ INTERACTION 6 ================
+PROMPT:
+<USER_REQUEST>
+@[d:\HCMUS\Nam_III_HK3\Software Testing\HW\HW02\testing-seminar-eshop-sut\skill\add_new_boundary_testing.md] @[d:\HCMUS\Nam_III_HK3\Software Testing\HW\HW02\testing-seminar-eshop-sut\skill\boundary_testing_designer.md] 
+Mô tả functional requirement: 
+Input Specification:
+
+"""
+Mô tả
+...
+OUTPUT:
+---
+
+## Tính năng: FR-09 - Mã Giảm Giá (Coupon)
+## II. Phương pháp Phân tích giá trị biên (Boundary Value Analysis - BVA)
+
+### Step 1: Xác định các biến có giá trị biên
+Trong tính năng này, có 3 trường dữ liệu có ranh giới rõ ràng cần phân tích biên:
+1. **Tổng giá trị đơn hàng (`total_amount`):** Ra
+...
+
+================ INTERACTION 7 ================
+PROMPT:
+<USER_REQUEST>
+@[d:\HCMUS\Nam_III_HK3\Software Testing\HW\HW02\testing-seminar-eshop-sut\skill\add_new_boundary_testing.md] @[d:\HCMUS\Nam_III_HK3\Software Testing\HW\HW02\testing-seminar-eshop-sut\skill\boundary_testing_designer.md] 
+Mô tả functional requirement: 
+Input Specification:
+
+"""
+Mô 
+...
+OUTPUT:
+---
+
+## Tính năng: FR-17 - Quản lý Mã Giảm Giá (Coupon CRUD)
+
+### Step 1: Xác định các biến có giá trị biên
+Trong tính năng này, có 3 trường dữ liệu có ranh giới rõ ràng cần phân tích biên:
+1. **Giá trị giảm giá (`discount_value`):** Ranh giới xét duyệt là số nguyên dương (`> 0`, tối thiểu bằng 1).
+
+...
+
+================ INTERACTION 8 ================
+PROMPT:
+<USER_REQUEST>
+@[d:\HCMUS\Nam_III_HK3\Software Testing\HW\HW02\testing-seminar-eshop-sut\skill\add_new_boundary_testing.md] @[d:\HCMUS\Nam_III_HK3\Software Testing\HW\HW02\testing-seminar-eshop-sut\skill\boundary_testing_designer.md] 
+Mô tả functional requirement: 
+Input Specification:
+
+"""
+Mô 
+...
+OUTPUT:
+---
+
+## Tính năng: FR-01 - Đăng ký tài khoản
+
+### Step 1: Xác định các biến có giá trị biên
+Trong tính năng này, có 1 trường dữ liệu có ranh giới rõ ràng cần phân tích biên:
+1. **Độ dài Mật khẩu mới (`password`):** Ranh giới xét duyệt là độ dài tối thiểu phải bằng 8 ký tự.
+
+### Step 2: Xác định các 
+...
+
+================ INTERACTION 9 ================
+PROMPT:
+<USER_REQUEST>
+@[d:\HCMUS\Nam_III_HK3\Software Testing\HW\HW02\testing-seminar-eshop-sut\temp.md] 
+Đọc file temp.md , Đó là audit log, nội dung dã đủ nhưng tôi muốn bạn format lại thành file .md chuyên nghiệp. 
+- Rules: Không thêm thắt từ vụng gì thêm, format lại file .md cho đẹp và ghi lại trong AI
+...
+OUTPUT:
+Tôi đã format lại toàn bộ lịch sử tương tác từ `temp.md` thành một báo cáo chuyên nghiệp và ghi lại thành công vào tệp [AI_audit_report.md](file:///d:/HCMUS/Nam_III_HK3/Software%20Testing/HW/HW02/testing-seminar-eshop-sut/AI_audit_report.md).
+...
+
+================ INTERACTION 10 ================
+PROMPT:
+<USER_REQUEST>
+Task 1: Rà soát lại và chỉnh lại cho tôi  từng Interaction sẽ bao gồm AI Tool, Date & Time, Prompt, AI Output. Bởi bì sẽ có những interaction tôi sẽ dùng ai khác 
+Task 2:  ### AI Output của tất cả interaction đảm bảo nằm trong '''text hết, tôi không muốn thể hiện nó bất kỳ ở dạng .md 
+...
+OUTPUT:
+None
+...
+
+================ INTERACTION 11 ================
+PROMPT:
+<USER_REQUEST>
+Task 1: Rà soát lại và chỉnh lại cho tôi  từng Interaction sẽ bao gồm AI Tool, Date & Time, Prompt, AI Output. Bởi bì sẽ có những interaction tôi sẽ dùng ai khác 
+Task 2:  ### AI Output của tất cả interaction đảm bảo nằm trong '''text hết, tôi không muốn thể hiện nó bất kỳ ở dạng .md 
+...
+OUTPUT:
+Tôi đã rà soát và chỉnh sửa lại toàn bộ tệp [AI_audit_report.md](file:///d:/HCMUS/Nam_III_HK3/Software%20Testing/HW/HW02/testing-seminar-eshop-sut/AI_audit_report.md) theo đúng yêu cầu:
+
+1. **Cấu trúc đồng bộ:** Mỗi Interaction trong số 15 tương tác đều bao gồm đầy đủ các thông tin: **AI Tool**, **D
+...
+
+================ INTERACTION 12 ================
+PROMPT:
+<USER_REQUEST>
+Tôi muốn bạn tham khảo template của từng interaction trong @[d:\HCMUS\Nam_III_HK3\Software Testing\HW\HW02\testing-seminar-eshop-sut\AI_audit_report.md]  . |
+Bạn hãy viết tiếp các interaction theo đúng format tôi đã định nghĩa ở file AI_audit_report.md. Ghi lại tất cả những gì diễn ra
+...
+OUTPUT:
+None
+...
